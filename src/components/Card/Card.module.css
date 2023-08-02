@@ -1,0 +1,123 @@
+@media (max-width: 475px) {
+  .mainContainer {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    color: #ffffff;
+  }
+
+  .frontCard {
+    background: url("../../assets/bg-card-front.png") no-repeat center/cover;
+    width: 250px;
+    height: 140px;
+    margin-top: 8rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+  }
+
+  .frontCardLogo {
+    width: 50px;
+  }
+
+  .cardNumber {
+    font-size: 20px;
+    letter-spacing: 1px;
+    display: flex;
+    margin-bottom: 10px;
+  }
+
+  .name {
+    text-transform: uppercase;
+  }
+
+  .nameAndDate {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .backCard {
+    background: url("../../assets/bg-card-back.png") no-repeat center/cover;
+    width: 250px;
+    height: 140px;
+    z-index: -5;
+    border-radius: 10px;
+    margin-left: 15%;
+    margin-top: -16.6rem;
+    position: relative;
+    padding: 15px;
+  }
+
+  .cvc {
+    position: absolute;
+    top: 4.55rem;
+    right: 1.5rem;
+  }
+}
+
+@media (min-width: 476px) {
+  .mainContent {
+    display: grid;
+    grid-template-columns: 1;
+    gap: 15px;
+  }
+
+  .mainContent {
+    padding: 10px;
+    color: #ffffff;
+    margin-left: 6rem;
+  }
+
+  .cvc {
+    position: absolute;
+    right: 2.5rem;
+    top: 9.3rem;
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+
+  .cardNumber {
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    display: flex;
+  }
+
+  .name {
+    text-transform: uppercase;
+  }
+
+  .frontCardLogo {
+    width: 80px;
+  }
+
+  .nameAndDate {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+  }
+
+  .frontCard {
+    background: url("../../assets/bg-card-front.png") no-repeat center/cover;
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .backCard {
+    background: url("../../assets/bg-card-back.png") no-repeat center/cover;
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    padding: 15px;
+    position: relative;
+    margin-left: 5rem;
+  }
+}

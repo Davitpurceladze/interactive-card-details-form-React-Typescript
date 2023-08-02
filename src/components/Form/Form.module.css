@@ -1,0 +1,65 @@
+.errorMessages {
+  margin-top: -30px;
+  margin-bottom: 20px;
+  color: red;
+  font-size: 13px;
+}
+
+.mainContent {
+  display: flex;
+  align-items: center;
+}
+
+.labelContainer {
+  display: flex;
+  gap: 2rem;
+}
+
+.inputContainer {
+  display: grid;
+  grid-template-columns: 25% 5% 25% 10% 35%;
+}
+
+form div label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1.4rem;
+}
+
+form div input {
+  outline: none;
+  font-size: 1.5rem;
+  width: 100%;
+  margin-bottom: 2.5rem;
+  border: 1.5px solid #dfdee0;
+
+  border-radius: 5px;
+  padding-left: 0.5rem;
+}
+
+form {
+  width: 22rem;
+  margin-left: 4rem;
+}
+
+@media (max-width: 475px) {
+  .mainContent {
+    margin-top: 10rem;
+  }
+
+  form {
+    width: 19rem;
+    margin-left: 10%;
+  }
+
+  form div input {
+    font-size: 1.1rem;
+    border-radius: 5px;
+    border: 1px solid #dfdee0;
+  }
+
+  form div label {
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+  }
+}

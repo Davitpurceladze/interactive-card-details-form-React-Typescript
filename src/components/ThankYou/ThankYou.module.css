@@ -1,0 +1,24 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-left: 10rem;
+}
+
+.mainContainer h1 {
+  letter-spacing: 4px;
+}
+
+.mainContainer p {
+  color: #8f8694;
+}
+
+@media (max-width: 475px) {
+  .mainContainer {
+    margin-left: 15%;
+    margin-top: 8rem;
+    max-width: 70%;
+  }
+}
