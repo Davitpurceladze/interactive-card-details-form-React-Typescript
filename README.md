@@ -13,9 +13,11 @@ next, you can search meals by name on the page :
 
 <img src="https://github.com/Davitpurceladze/midtermTBC/assets/111928562/14205768-35e9-4942-a295-ee5d72a3e55d" alt="GitHub Logo" width="200"/>
 
-or search by ingredient
+or search by ingredient:
 
 <img src="https://github.com/Davitpurceladze/midtermTBC/assets/111928562/b4b5c403-4962-4113-8217-318d5a122938" alt="GitHub Logo" width="200"/>
+
+If you can't decide what to cook, press on get random meal:
 
 
 
